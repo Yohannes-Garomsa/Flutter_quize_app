@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         title: 'Quiz Ethiopia',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(useMaterial3: true, primarySwatch: Colors.deepPurple),
-        home: const HomeScreen(),
+        home: HomeScreen(),
       ),
     );
   }

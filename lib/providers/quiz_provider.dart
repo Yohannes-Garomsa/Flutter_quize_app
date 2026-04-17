@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:quize_app/models/question.dart';
-import 'package:quize_app/utlis/constants.dart';
+import 'package:quiz_app/models/question.dart';
+import 'package:quiz_app/utlis/constants.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class QuizeProvider with ChangeNotifier {
@@ -33,7 +33,7 @@ class QuizeProvider with ChangeNotifier {
     }
   }
 
-  void resetQuize() {
+  void resetQuiz() {
     _currentIndex = 0;
     _score = 0;
     _selectedAnswer = null;

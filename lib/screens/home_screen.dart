@@ -32,7 +32,7 @@ class HomeScreen extends StatelessWidget {
                 Provider.resetQuize();
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => const quize_screen()),
+                  MaterialPageRoute(builder: (context) => const quiz_screen()),
                 );
               },
               child: const Text('Start Quiz'),
